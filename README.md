@@ -6,7 +6,7 @@ In this repo you will find some python scripts to learn by example the basics of
 
 > Data exploration using seaborn https://seaborn.pydata.org/
 
-> Basic stats using statmodels https://www.statsmodels.org/stable/index.html
+> Basic stats using statsmodels https://www.statsmodels.org/stable/index.html
 
 
 
