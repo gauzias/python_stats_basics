@@ -7,10 +7,17 @@ sns.set(style="darkgrid")
 
 if __name__ == "__main__":
     '''
+    The present script is a simple tutorial on data exploration using seaborn and pandas.
+    extensive tutorials for these packages are available on their respective website: 
+    seaborn
+    https://seaborn.pydata.org/tutorial.html
+    pandas
+    https://pandas.pydata.org/pandas-docs/stable/
+
     Note on the data
-    The data are phenotype and morphometry data from the ABIDE open dataset:
+    The data are phenotype and morphometry tables from the ABIDE open dataset:
     http://fcon_1000.projects.nitrc.org/indi/abide/abide_I.html
-    The morphometry data have been computed using great open source tools:
+    The morphometry data has been computed using great open source tools:
     -freesurfer https://surfer.nmr.mgh.harvard.edu/
     -BrainVISA http://brainvisa.info/web/index.html
     '''
@@ -95,9 +102,3 @@ if __name__ == "__main__":
     df_pheno_morpho_sub['DX_GROUP'] = df_pheno_morpho_sub['DX_GROUP'].astype('category')
     sns.pairplot(df_pheno_morpho_sub, hue="DX_GROUP", palette="Set2", diag_kind="kde", height=2.5)
     plt.show()
-
-    # continue with the official tutos:
-    # seaborn
-    # https://seaborn.pydata.org/tutorial.html
-    # pandas
-    # https://pandas.pydata.org/pandas-docs/stable/
