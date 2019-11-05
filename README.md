@@ -24,7 +24,12 @@ conda create -n idp3_stats intelpython3_core python=3 statsmodels seaborn xlrd b
 pip install statsmodels seaborn xlrd bottleneck
 ```
 
-# extensive resources and tutorials are available on the web!
+## To know how to install and use conda:
+```
+https://conda.io/en/latest/index.html
+```
+
+# Extensive resources and tutorials are available elsewhere
 
 ### pandas tutos
 
